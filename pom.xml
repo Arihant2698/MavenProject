@@ -3,7 +3,10 @@
   <groupId>com.Milestoneass.Mavenproj</groupId>
   <artifactId>MavenProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-<dependencies> <dependency>
+ <properties>
+  <maven.compiler.source>1.8</maven.compiler.source>
+  <maven.compiler.target>1.8</maven.compiler.target>
+  </properties> <dependencies> <dependency>
   <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 
     <groupId>mysql</groupId>
